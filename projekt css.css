@@ -1,0 +1,452 @@
+body {
+    margin: 0;
+
+
+}
+
+
+.simple {
+    color: #e59205;
+}
+
+.content {
+    background-image: url(zdjecia/back1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 1332px;
+    
+
+}
+
+.tll {
+    background-image: url(zdjecia/back2.png);
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    align-items: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+.nav a {
+    padding: 0.9em;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    line-height: 48px;
+    font-family: "Raleway";
+    font-weight: bold;
+}
+
+.nav1 {
+    text-decoration: none;
+    font-size: 45px;
+    color: #E59205;
+}
+
+.nav a:nth-last-of-type(3) {
+    font-size: 72px;
+    letter-spacing: 1px;
+    line-height: 48px;
+    color: rgb(229, 146, 5);
+    font-family: "Playfair Display";
+    font-weight: bold;
+}
+
+
+.button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    border: 2px solid #ffffff;
+    font-size: 25px;
+    line-height: 48px;
+    background-color: transparent;
+    padding: 6px 40px;
+    margin-top: 70px;
+    margin-bottom: 200px;
+    cursor: pointer;
+    color: #ffffff;
+
+}
+
+
+.simple1 {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    margin: 0;
+    border: 0;
+    padding-top: 300px;
+    font-size: 72px;
+    line-height: 48px;
+    font-family: "Playfair Display";
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+.tekst1 {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 48px;
+    color: rgb(255, 255, 255);
+    font-family: "Raleway";
+    text-align: center;
+    padding: 0;
+
+}
+
+
+
+
+.tekst2 h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 56px;
+    padding-top: 70px;
+    line-height: 82px;
+    color: rgb(110, 116, 152);
+    font-family: "Playfair Display";
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+
+
+.tekst3 {
+    width: 850px;
+    height: 300px;
+    font-size: 24px;
+    line-height: 48px;
+    color: rgb(164, 168, 188);
+    font-family: "Raleway";
+    text-align: center;
+    margin: auto;
+}
+
+
+.d,
+.m,
+.s {
+    width: 204px;
+    height: 65px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid #d9dcee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.dms {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin: auto;
+}
+
+.dms a {
+    text-decoration: none;
+    font-size: 30px;
+    letter-spacing: 0px;
+    line-height: 48px;
+    color: rgb(110, 116, 152);
+    font-family: "Bebas Neue Bold";
+    font-weight: bold;
+}
+
+.m {
+    background-color: #e59105;
+
+}
+
+.m a {
+    color: #fff;
+
+}
+
+
+.more {
+    width: 204px;
+    height: 65px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid #d9dcee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px
+}
+
+.more a {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 48px;
+    color: rgb(110, 116, 152);
+    font-family: "Bebas Neue Bold";
+    font-weight: bold;
+
+}
+
+
+
+.cena {
+    font-size: 72px;
+    line-height: 82px;
+    color: rgb(229, 146, 5);
+    font-family: "Playfair Display";
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.lorem {
+    width: 286px;
+    height: 256px;
+    font-size: 18px;
+    line-height: 48px;
+    color: rgb(164, 168, 188);
+    font-family: "Raleway";
+    text-align: center;
+}
+
+.order {
+    width: 204px;
+    height: 65px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid #d9dcee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 140px;
+}
+
+.order a {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 48px;
+    color: rgb(110, 116, 152);
+    font-family: "Bebas Neue Bold";
+    font-weight: bold;
+
+}
+
+.potrawy {
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    margin: auto;
+}
+
+.jajko,
+.grill,
+.karkowka,
+.pizza,
+.stek2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.potrawy img {
+    display: flex;
+    align-items: center;
+}
+
+.tacka {
+    display: flex;
+    justify-content: space-between;
+    background: #e59105;
+    margin: 0;
+    padding: 0;
+}
+
+.tacka p {
+    display: flex;
+    font-size: 72px;
+    line-height: 82px;
+    color: rgb(255, 255, 255);
+    font-family: "Playfair Display";
+    font-weight: bold;
+    font-style: italic;
+    height: 250px;
+    margin: auto;
+
+}
+
+.tacka img {
+    width: 1336px;
+    height: 566;
+
+}
+
+.menu1 {
+    text-align: center;
+    font-size: 22px;
+    line-height: 40px;
+    color: rgb(110, 116, 152);
+    font-family: "Playfair Display";
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+
+}
+
+.asd {
+    font-size: 30px;
+
+}
+
+.przyciskk {
+    width: 204px;
+    height: 65px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid #d9dcee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+
+}
+
+.przyciskk a {
+    text-decoration: none;
+    color: rgb(110, 116, 152);
+
+}
+
+.menuu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1300px;
+    margin: auto;
+}
+
+
+.schody {
+    margin: 0;
+    background: url(zdjecia/schody.png) no-repeat top center;
+    background-size: cover;
+    text-align: center;
+    padding: 130px 0;
+    filter: opacity(100%);
+    color: #fff;
+
+}
+
+.h22 {
+    font-size: 68px;
+    letter-spacing: 1px;
+    line-height: 80px;
+    color: rgb(110, 116, 152);
+    font-family: "Playfair Display";
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+.h22p {
+    width: 850px;
+    height: 300px;
+    font-size: 24px;
+    letter-spacing: 0px;
+    line-height: 48px;
+    color: rgb(164, 168, 188);
+    font-family: "Raleway";
+    text-align: center;
+    margin: 0 auto;
+}
+
+.schodyt {
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 70px;
+    color: #fff;
+    font-size: 72px;
+    letter-spacing: 1px;
+    line-height: 82px;
+    color: rgb(255, 255, 255);
+    font-family: "Playfair Display";
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+
+}
+
+input {
+    border: 1px solid #fff;
+    background-color: transparent;
+    text-align: center;
+    width: 500px;
+    padding: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+}
+
+input::placeholder {
+    color: #fff;
+}
+
+.schodys {
+    display: block;
+    margin: 70px auto 0;
+    border: 1px solid #E59205;
+    background-color: #E59205;
+    padding: 10px 30px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+.copy {
+    margin: 0;
+    color: #6E7498;
+    float: right;
+    margin-top: 1%;
+    margin-left: 12%;
+    font-size: 18px;
+    float: left;
+    font-size: 16px;
+    line-height: 92px;
+    color: rgb(20, 57, 106);
+    font-family: "Koz Go Pr6 N";
+}
+
+
+.futer {
+    float: right;
+    margin-top: 2%;
+    margin-right: 10%;
+    font-size: 18px;
+}
+
+.futer a {
+    color: #6E7498;
+    text-decoration: none;
+    padding: 0.4em;
+    font-size: 18px;
+    line-height: 48px;
+    color: rgb(164, 168, 188);
+    font-family: "Raleway";
+
+}

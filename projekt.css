@@ -1,0 +1,10 @@
+#start {
+    background-image: url(tlo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black; filter: opacity(100%);
+}
+
+.nav {
+    text-align: center;
+}
