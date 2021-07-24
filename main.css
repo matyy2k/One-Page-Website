@@ -5,7 +5,7 @@ body {
 }
 
 #start {
-    background-image: url(tlo.png);
+    background-image: url(back.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black; filter: opacity(100%);
@@ -21,7 +21,7 @@ body {
 }
 
 .content {
-    background-image: url(zdjecia/back1.png);
+    background-image: url(media/back1.png);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -31,7 +31,7 @@ body {
 }
 
 .tll {
-    background-image: url(zdjecia/back2.png);
+    background-image: url(media/back2.png);
 }
 
 .nav {
@@ -353,7 +353,7 @@ body {
 
 .schody {
     margin: 0;
-    background: url(zdjecia/schody.png) no-repeat top center;
+    background: url(media/schody.png) no-repeat top center;
     background-size: cover;
     text-align: center;
     padding: 130px 0;
